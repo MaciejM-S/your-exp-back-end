@@ -5,8 +5,8 @@ const cors = require('cors')
 const path = require('path')
 
 // importowanie routera
-const  friendsRouter = require('./routers/friends')
-const  universalRouter = require('./routers/universal')
+const friendsRouter = require('./routers/friends')
+const universalRouter = require('./routers/universal')
 const initRouter = require('./routers/init')
 const profileRouter = require('./routers/profile')
 
@@ -19,19 +19,16 @@ app.use(universalRouter)
 app.use(initRouter)
 app.use(profileRouter)
 
-app.use((err, req, res, next)=>{
+app.use((err, req, res, next) => {
     res.status(err.statusCode).send()
 })
 
-
 mongoose.connect(
-    process.env.MONGO_CONNECTION
+    process.env.MONGO_URI
 )
 path.resolve(__dirname, "./client/build", "index.html")
 const port = process.env.PORT || 3001
 
 app.listen(port, () => {
-    
-    
     console.log('the server is up on port ' + port);
 })
