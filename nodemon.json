@@ -1,0 +1,8 @@
+{
+  "env":{
+      "MONGO_CONNECTION":"mongodb+srv://my-exp:!!Ozy121212@cluster0.qavyzvw.mongodb.net/?retryWrites=true&w=majority",
+      "JWT_SECRET":"!Ozy11221@",
+      "SG_SECRET":"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"
+  }
+
+}
