@@ -11,6 +11,10 @@ const errorHandler = (errorCode, next) => {
   next(newError);
 };
 
+exports.startServer= async (req, res, next) => {
+  res.send({message:'myExp ready'})
+}
+
 exports.init = async (req, res, next) => {
   let user;
   try {
