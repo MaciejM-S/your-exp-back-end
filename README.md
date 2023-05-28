@@ -18,7 +18,7 @@ This app has been created with the following tech-stack:
 +  SendGrid - for password restoring
 
 
-To provide better undesrtanding of <b>/back-end</b> this description presents information about each file and subfile giving you a better understanding of their purpose and functionality:
+To provide better undesrtanding of <b>/back-end</b> this description presents information about controllers, routers and functions directories and its subfiles giving you a better understanding of their purpose and functionality:
 
 ### controllers
 
