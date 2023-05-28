@@ -23,18 +23,15 @@ To provide better undesrtanding of <b>/back-end</b> this description presents in
 ### controllers
 
 - friends.js: This file is a controller file responsible for handling requests related to friends functionality. 
-It contains functions and route handlers for managing interactions with other users: sdding friends, removing etc.
+It contains functions and route handlers for managing interactions with other users: adding friends, removing etc.
 
-- init.js: The init.js file is a controller file that handles initialization tasks or setup procedures for the backend application. 
+- init.js: The init.js file is a controller file that handles initialization tasks. 
 It includes functions and route handlers initialize the server, register users, signin users and checking jwt stored in the browser memory.
 
 - profile.js: The profile.js file is a controller file that handles requests related to user profiles. 
-It contains functions and route handlers for managing user profiles, such as fetching user profile information, updating profile details, uploading profile pictures, 
-retrieving user posts, and performing other profile-related operations.
+It contains functions and route handlers for managing user profiles, such as fetching user profile information, updating profile details, uploading profile pictures, retrieving user posts, and performing other profile-related operations.
 
 - universal.js: The universal.js file is a controller file that contains common or utility functions used throughout the application. 
-
-
 
 ### routers
 
@@ -42,7 +39,6 @@ retrieving user posts, and performing other profile-related operations.
 - init.js
 - profile.js
 - universal.js
-
 
 ### functions
 
