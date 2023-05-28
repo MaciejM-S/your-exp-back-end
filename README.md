@@ -33,7 +33,7 @@ It contains functions and route handlers for managing user profiles, such as fet
 retrieving user posts, and performing other profile-related operations.
 
 - universal.js: The universal.js file is a controller file that contains common or utility functions used throughout the application. 
-These functions may provide general-purpose functionality or shared logic used across different modules or controllers. 
+
 
 
 ### routers
