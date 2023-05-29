@@ -115,5 +115,5 @@ Here is breakdow of the schema for <b>Comment</b> fields:
       - data: The avatar data (Buffer).
     - text: The comment text.
     - date: The date of the comment.
-- hearts: An array of strings representing users who hearted the comment.
-- thumbsup: An array of strings representing users who gave a thumbs-up to the comment.
+- hearts: An array of strings representing users Ids who hearted the comment.
+- thumbsup: An array of strings representing users Ids who gave a thumbs-up to the comment.
