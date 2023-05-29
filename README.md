@@ -54,8 +54,7 @@ It contains functions and route handlers for managing user profiles, such as fet
 ### models
 
 db models are based on User Schema and Comment Schem
-Here is breakdow of the schema for <b>User</b>:
-Fields:
+Here is breakdow of the schema for <b>User</b> fields:
 - info: An object containing the user's personal information.
   - firstName: The user's first name. (required)
   - lastName: The user's last name. (required)
@@ -106,8 +105,7 @@ Fields:
 Note: The schema includes nested objects and arrays to represent complex data structures associated with a user, such as pictures, posts, friends, and invitations.
 
 
-Here is breakdow of the schema for <b>Comment</b>:
-Fields:
+Here is breakdow of the schema for <b>Comment</b> fields:
 - commentsId: The ID of the comments associated with the document.
 - comments: An array of comment objects.
   - comment: The comment object.
